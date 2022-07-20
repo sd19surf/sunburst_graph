@@ -1,0 +1,25 @@
+path {
+  stroke: #fff;
+  stroke-width: 0.5px;
+  cursor: pointer;
+}
+text {
+  cursor: pointer;
+  pointer-events: none;
+  text-anchor: middle;
+}
+.svgon {
+   stroke: #36383f;
+   stroke-width: 0.5;
+   stroke-linecap: 'round';
+ }
+.tooltip {	
+    position: absolute;
+    text-align: center;
+    padding: 7px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
