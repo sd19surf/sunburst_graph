@@ -75,13 +75,17 @@
         .each(arcFunction);
 
 
+
+
 // Function called for each path appended to increase scale and iterate.
 function arcFunction(d, i) {
 var arc = d3.arc()
         .innerRadius(110)
         .outerRadius(120)
         .startAngle(d.angles.startAngle)
-        .endAngle(d.angles.endAngle);
+        .endAngle(d.angles.endAngle)
+ 
+
 
 return d3.select(this)
     .style("fill", d.color)
